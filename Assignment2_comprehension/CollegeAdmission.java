@@ -28,15 +28,15 @@ class Students{
         switch(choice){
             case 1:
                 System.out.println("Eligible courses for Science");
-                System.out.println("1. physics     2. math     3. chemistry    4.computer");
+                System.out.println("1. BSC     2. Bsc. CSIT     3. Bio-medical Engineering    4.Civil Engineering");
                 break;
             case 2:
                 System.out.println("Eligible course for Commerce");
-                System.out.println("1. economics      2. account     3. business studies      4. English for business");
+                System.out.println("1. BBA      2. BBS     3. BBA Finance      4. CA");
                 break;
             case 3:
                 System.out.println("Eligible course for Arts");
-                System.out.println("1. Humanities     2. Mass Communication     3. Law      4. Design");
+                System.out.println("1. Humanities     2. Journalism     3. Law      4. Design");
                 break;
             default:
                 System.out.println("Invalid choice!");
